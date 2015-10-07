@@ -7,7 +7,9 @@ relative_path "#{name}-#{version}"
 
 dependency 'cartodb-gdal'
 dependency 'nodejs'
-dependency 'cartodb-postgresql'
+dependency 'postgis'
+dependency 'pg_schema_triggers'
+
 dependency 'redis'
 
 build do
