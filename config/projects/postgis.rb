@@ -20,5 +20,4 @@ exclude "**/bundler/git"
 dependency "preparation"
 dependency "postgis"
 dependency 'pg_schema_triggers'
-dependency "libossp-uuid" 
 dependency "version-manifest"
