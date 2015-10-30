@@ -13,6 +13,6 @@ build do
   command configure
 
   make "-j #{workers}"
-  make 'check'
+#  make 'check'
   make 'install'
 end
