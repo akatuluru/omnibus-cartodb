@@ -20,7 +20,7 @@ default_version "7.1.2"
 dependency "setuptools"
 
 source url: "https://pypi.python.org/packages/source/p/pip/pip-#{version}.tar.gz",
-       md5: '6b19e0a934d982a5a4b798e957cb6d45'
+       md5: '3823d2343d9f3aaab21cf9c917710196'
 
 relative_path "pip-#{version}"
 
