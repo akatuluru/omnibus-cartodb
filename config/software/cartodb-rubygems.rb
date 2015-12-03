@@ -19,7 +19,7 @@ build do
             "--path=#{install_dir}/embedded/gem",
             "--binstubs=#{install_dir}/embedded/bin",
             "--deployment",
-            "--retry 4",
+            "--retry 4 ",
             "-j#{workers}"
             ].join(' ')
             
