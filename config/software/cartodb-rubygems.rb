@@ -22,6 +22,7 @@ build do
             "--retry 4",
             "-j#{workers}"
             ].join(' ')
+            
   command bundle, cwd: staging_dir, env: env.merge({
     "BUNDLE_BUILD__CHARLOCK_HOLMES" => "--with-pkg-config=#{install_dir}/embedded/lib/pkgconfig/",
     "BUNDLE_BUILD__FFI" => "--with-pkg-config=#{install_dir}/embedded/lib/pkgconfig/",
